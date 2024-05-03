@@ -27,19 +27,32 @@
       rel="stylesheet"
     />
     <script src="https://kit.fontawesome.com/0b883932e3.js" crossorigin="anonymous"></script>
+    <meta
+      name="description"
+      content="Take a look at Marta's works. Marta is a front-end engineer based in Europe"
+    />
     <link rel="stylesheet" href="portfolio.css" />
 
-    <title>My work</title>
+    <title>Marta's works | Marta Lucja</title>
   </head>
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <img src="photos/logo.png" class="logo" alt="sheCodes logo" />
+        <img
+          src="photos/logo.png"
+          class="logo d-none d-md-block"
+          alt="sheCodes logo"
+        />
+        <img
+          src="photos/mini.png"
+          class="logo d-none d-md-none"
+          alt="sheCodes mini logo"
+        />
         <ul>
-          <li class="active"><a href="/">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li><a href="/about.html"title="About Marta">About</a></li>
+          <li class="active"><a href="/work.html"title="Marta's work">Work</a></li>
+          <li><a href="/contact.html"title="Contact Marta">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -88,11 +101,11 @@
       <footer>
         <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
           <div>
-            <h4>Work Inquiry</h4>
+            <h3>Work Inquiry</h3>
             <p class="text-muted">Let's work together</p>
           </div>
           <div>
-            <a href="#" class="btn btn-branding">Contact me</a>
+            <a href="/contact.html" title="Contact me" class="btn btn-branding">Contact me</a>
           </div>
         </div>
 
@@ -102,20 +115,28 @@
           >
         </div>
         <div class="social-links d-flex justify-content-center mb-5">
-          <a href="https://github.com/marya479" target="_blank">
+          <a href="https://github.com/marya479" target="_blank" title="Github profile">
             <i class="fa-brands fa-github"></i>
           </a>
           <a
             href="https://www.instagram.com/jachimowska.marta/?hl=en"
-            target="_blank"
+            target="_blank" title="Instagram profile"
             ><i class="fa-brands fa-instagram"></i
           ></a>
           <a
             href="https://www.linkedin.com/in/marta-lucja-weglinska-761603211/"
-            target="_blank"
+            target="_blank" title="LinkedIn profile"
             ><i class="fa-brands fa-linkedin"></i
           ></a>
         </div>
+        <p class="text-center mt-5">
+          🩷This project was coded by Marta Lucja, and it is
+          <a
+            href="https://github.com/marya479/portfolio-project"
+            target="_blank"
+            >open-sourced.🩷
+          </a>
+        </p>
       </footer>
     </div>
   </body>
